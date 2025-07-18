@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { FaReact, FaNodeJs, FaJs, FaGithub, FaPython, FaGitAlt, FaAws } from "react-icons/fa";
-import { SiMongodb, SiNextdotjs, SiTailwindcss, SiN8N, SiOpenai, SiVercel, SiPostman, SiWordpress, SiMake, SiTypescript, SiRender, SiPostgresql} from "react-icons/si";
+import { SiMongodb, SiNextdotjs, SiTailwindcss, SiN8N, SiOpenai, SiVercel, SiExpress, SiPostman, SiWordpress, SiMake, SiTypescript, SiRender, SiPostgresql} from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 import { BsRobot } from "react-icons/bs";
 
@@ -13,7 +13,7 @@ const techStack = [
   { name: "React Native", icon: <FaReact size={24} className="text-blue-400" /> },
   { name: "Next.js", icon: <SiNextdotjs size={24} className="text-white" /> },
   { name: "Node.js", icon: <FaNodeJs size={24} className="text-green-500" /> },
-  { name: "Express", icon: <FaNodeJs size={24} className="text-gray-400" /> },
+  { name: "Express", icon: <SiExpress size={24} className="text-gray-400" /> },
   { name: "MongoDB", icon: <SiMongodb size={24} className="text-green-600" /> },
   { name: "Postgresql", icon: <SiPostgresql size={24} className="text-blue-600" /> },
   { name: "Tailwind CSS", icon: <SiTailwindcss size={24} className="text-teal-400" /> },

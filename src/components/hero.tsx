@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Socials from "./socials";
 
 export default function Hero() {
   return (
@@ -67,6 +68,10 @@ export default function Hero() {
           Check out my work →
         </a>
       </motion.div>
+      {/* Socials visible only on mobile */}
+      <div className="block md:hidden mt-10">
+        <Socials />
+      </div>
     </section>
   );
 }

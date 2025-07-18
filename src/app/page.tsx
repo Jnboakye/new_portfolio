@@ -8,6 +8,8 @@ import Projects from '@/components/projects';
 import Contact from '@/components/contact';
 import Section from '@/components/section';
 import { useEffect, useState } from 'react';
+import ChatWidget from "@/components/chatbotWidget";
+
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState('about');
@@ -34,6 +36,8 @@ export default function Home() {
       <Navbar activeSection={activeSection} />
       <main className="w-full md:w-3/4 p-4 md:p-6 overflow-y-auto no-scrollbar">
         <Hero />
+        <ChatWidget />
+
         <Section id="about">
           <About />
         </Section>
